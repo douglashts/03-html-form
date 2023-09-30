@@ -1,0 +1,53 @@
+<!DOCTYPE html">
+<html lang="pt-BR">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exercicio Aula 03 - Formulário de contato</title>
+    <meta name="description" content="Descrição do Site">
+    <meta name="keywords" content="HTML, JS, SCC Exercicio 03 - Awari">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script>
+        console.log("Teste de Carregamento de JS");
+    </script>
+</head>
+<body>
+    <header><!--cabeçalho-->
+        <svg><!--Colocar logo-->         
+        </svg>
+       <!--<h1>H1 - Do Exercicio 03 - Awari</h1>-->
+    </header>
+    <main id="main01">
+        <!--<h2>H2 - Do Exercicio 03 - Awari</h2>-->
+        <section class="form-wrapper">
+            <h2 class="form-title">Formulário de Contato</h2>
+            <form id="contact-form">
+                <div class="form-input-group">
+                    <label for="name">Nome:</label><br><!--O Atributo for vincula o label ao input de mesmo nome Dica Silvano-->
+                    <input type="text" id="name" name="name" required><br>
+                </div>
+                <div class="form-input-group">
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+                <div class="form-input-group">
+                    <label for="message">Mensagem:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <script type="text/javascript" src="scripts.js"></script>
+     </main>
+     <!--<nav></nav>
+     <article></article>-->	
+    <!--<section class="section01">
+    </section>
+    <section class="section02">
+    </section>-->
+    <!--<footer>
+        <p>Rodape do Exercicio 03 - Awari</p>
+    </footer>-->
+</body>
+</html>
